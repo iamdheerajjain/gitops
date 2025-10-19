@@ -194,7 +194,9 @@ You can change these in `/etc/grafana/grafana.ini`
 ## Sample Results
 
 ![op1](op1.jpg)
+---
 ![op2](op2.jpg)
+---
 ![op3](op3.jpg)
 
 
