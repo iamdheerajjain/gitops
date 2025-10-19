@@ -282,35 +282,3 @@ argocd app delete gitops
 # Delete the Kind cluster
 kind delete cluster --name gitops
 ```
-
----
-
-## 📚 Additional Resources
-
-- [ArgoCD Documentation](https://argo-cd.readthedocs.io/)
-- [Kind Documentation](https://kind.sigs.k8s.io/)
-- [Prometheus Documentation](https://prometheus.io/docs/)
-- [Grafana Documentation](https://grafana.com/docs/)
-- [GitOps Principles](https://www.gitops.tech/)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
----
-
-## 📧 Contact
-
-For questions or feedback, please open an issue on GitHub.
-
----
-
-**⭐ If you found this project helpful, please give it a star!**
