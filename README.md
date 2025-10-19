@@ -12,13 +12,19 @@
 ## 🧠 Overview
 
 **GitOps** is a modern approach to Continuous Delivery where your **Git repository acts as the single source of truth** for your infrastructure and applications.  
-This project demonstrates a complete **GitOps workflow** using:
+This project demonstrates a complete **GitOps workflow**
 
-- **Kind** (Kubernetes in Docker) — Local Kubernetes cluster  
-- **ArgoCD** — Continuous Delivery & GitOps automation  
-- **Prometheus** — Application metrics collection  
-- **Grafana** — Real-time monitoring and visualization  
-- **Ingress NGINX** — Routing external traffic into the cluster  
+---
+
+## 🧩 Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| Kind | Local Kubernetes cluster |
+| ArgoCD | GitOps & CD Automation |
+| Prometheus | Metrics collection |
+| Grafana | Visualization & Dashboards |
+| NGINX Ingress | External access routing | 
 
 ---
 
@@ -182,25 +188,6 @@ Access Grafana at: http://localhost:3000
 - Password: `admin`
 
 You can change these in `/etc/grafana/grafana.ini`
-
----
-## 🧩 Tech Stack
-
-| Tool | Purpose |
-|------|---------|
-| Kind | Local Kubernetes cluster |
-| ArgoCD | GitOps & CD Automation |
-| Prometheus | Metrics collection |
-| Grafana | Visualization & Dashboards |
-| NGINX Ingress | External access routing |
-
-## 🧠 Key Concepts Demonstrated
-
-* **GitOps Workflow** — Continuous sync between Git and Cluster
-* **Declarative Configurations** — Using YAML manifests
-* **Observability** — With Prometheus and Grafana
-* **Security** — Namespaces, RBAC, and NetworkPolicies
-* **Scalability** — Multi-replica deployments and services
 
 ---
 
